@@ -1,9 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Ogg-Medium;
+  src: url(/fonts/Ogg-Medium.woff);
+}
+
+@font-face {
+  font-family: Ogg-Regular;
+  src: url(/fonts/Ogg-Regular.woff);
+}
+
+@font-face {
+  font-family: Ogg-RegularItalic;
+  src: url(/fonts/Ogg-RegularItalic.woff);
+}
+
+@font-face {
+  font-family: Plain-Medium;
+  src: url(/fonts/Plain-Medium.otf);
+}
+
+@font-face {
+  font-family: Plain-Regular;
+  src: url(/fonts/Plain-Regular.otf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f2eee5;
+  margin: 0;
+  --color-text: #d05400;
+  --color-bg: #0c0c0c;
+  --color-link: #6b5537;
+  --color-link-hover: #fff;
+  --color-content-title-sub: #6b5537;
+  --cursor-stroke: #6b5537;
+  --cursor-fill: none;
+  --cursor-stroke-width: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,4 +55,64 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.ogg-medium {
+  font-family: Ogg-Medium;
+}
+
+.ogg-regular {
+  font-family: Ogg-Regular;
+}
+
+.ogg-regular-italic {
+  font-family: Ogg-RegularItalic;
+}
+
+.plain-medium {
+  font-family: Plain-Medium;
+}
+
+.plain-regular {
+  font-family: Plain-Regular;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.grid {
+  pointer-events: none;
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+  display: grid;
+  grid-template-columns: repeat(50, 2%);
+  grid-template-rows: repeat(50, 2%);
+}
+
+.pos-1 {
+  grid-area: 1 / 25 / 1 / 64;
+}
+
+.pos-2 {
+  grid-area: 9 / 53 / 17 / 58;
+}
+
+.pos-3 {
+  grid-area: 50 / 2 / 32 / 10;
+}
+
+.pos-4 {
+  grid-area: 8 / 1 / 33 / 20;
+}
+
+.pos-5 {
+  grid-area: 28 / 62 / 54 / 46;
 }
