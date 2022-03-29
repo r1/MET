@@ -22,7 +22,7 @@ export default function Landing() {
               <div className="relative h-28 w-32 bg-[url('/images/Dionysos.jfif')] bg-cover" />
             </div>
           </div>
-          <div className="z-40 w-full text-left lg:text-center">
+          <div className="z-10 w-full text-left lg:text-center">
             <h1 className="ogg-regular mb-4 pt-24 text-[4.2rem] leading-[4rem] text-[#303030] md:text-[5rem] lg:text-[11rem] lg:leading-[12rem]">
               Welcome <span className="ogg-regular-italic">to</span> The Met
             </h1>

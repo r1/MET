@@ -1,3 +1,12 @@
+<div align="center">
+<h1 align="center">The Metropolitan Museum Of Art</h1> 
+Tech Stack: Next.js & Tailwind CSS
+<br></br>
+<img src="./img/main_page.png"></img>
+</div>
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
