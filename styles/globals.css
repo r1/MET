@@ -85,7 +85,7 @@ a {
   user-select: none;
 }
 
-.grid {
+.imggrid {
   pointer-events: none;
   position: absolute;
   width: 110%;
@@ -98,7 +98,7 @@ a {
 }
 
 .pos-1 {
-  grid-area: 1 / 25 / 1 / 64;
+  grid-area: 1 / 28 / 1 / 64;
 }
 
 .pos-2 {
@@ -106,7 +106,7 @@ a {
 }
 
 .pos-3 {
-  grid-area: 50 / 2 / 32 / 10;
+  grid-area: 50 / 4 / 29 / 15;
 }
 
 .pos-4 {

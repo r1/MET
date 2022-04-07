@@ -5,7 +5,7 @@ Tech Stack: Next.js & Tailwind CSS
 <img src="./img/main_page.png"></img>
 </div>
 
-
+Credits: https://www.behance.net/gallery/136907107/The-Met-Museum-of-Art-redesign-concept
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

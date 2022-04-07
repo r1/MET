@@ -45,7 +45,7 @@ export default function Nav() {
             </span>
             <input
               type="text"
-              className="plain-regular bg-[#f2eee5] text-[0.9em] tracking-[0.8px] text-[#363636] placeholder-[#878683] outline-none"
+              className="plain-regular bg-[#f2eee5] text-[0.9em] tracking-[0.8px] text-[#363636] placeholder-[#878787] outline-none"
               placeholder="SEARCH"
             />
           </div>
