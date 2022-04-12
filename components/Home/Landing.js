@@ -2,6 +2,7 @@
 import React from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import useMediaQuery from "../useMediaQuery";
+import Image from "next/image";
 
 export default function Landing({ variants }) {
   let easing = [0.6, -0.05, 0.01, 0.99];
@@ -105,55 +106,70 @@ export default function Landing({ variants }) {
                 <div className="pos-1 hidden lg:grid">
                   <div className="relative h-[9.2rem] w-28 bg-cover">
                     <motion.div variants={variants}>
-                      <motion.img
-                        variants={item}
-                        src="/images/Iyoba.jfif"
-                        alt="Iyoba"
-                      />
+                      <motion.div variants={item}>
+                        <Image
+                          alt="Iyoba"
+                          src="/images/Iyoba.webp"
+                          height={180}
+                          width={130}
+                        />
+                      </motion.div>
                     </motion.div>
                   </div>
                 </div>
                 <div className="pos-2 hidden lg:grid">
                   <div className="relative h-44 w-36 bg-cover">
                     <motion.div variants={variants}>
-                      <motion.img
-                        variants={item}
-                        src="/images/Brinley.jfif"
-                        alt="Brinley"
-                      />
+                      <motion.div variants={item}>
+                        <Image
+                          alt="Brinley"
+                          src="/images/Brinley.webp"
+                          height={185}
+                          width={145}
+                        />
+                      </motion.div>
                     </motion.div>
                   </div>
                 </div>
                 <div className="pos-3 hidden lg:grid">
                   <div className="relative h-44 w-32 bg-cover">
                     <motion.div variants={variants}>
-                      <motion.img
-                        variants={item}
-                        src="/images/Pieta.jfif"
-                        alt="Pieta"
-                      />
+                      <motion.div variants={item}>
+                        <Image
+                          alt="Pieta"
+                          src="/images/Pieta.webp"
+                          height={190}
+                          width={130}
+                        />
+                      </motion.div>
                     </motion.div>
                   </div>
                 </div>
                 <div className="pos-4 hidden lg:grid">
                   <div className="relative h-32 w-24  bg-cover">
                     <motion.div variants={variants}>
-                      <motion.img
-                        variants={item}
-                        src="/images/Bronzino.jfif"
-                        alt="Bronzino"
-                      />
+                      <motion.div variants={item}>
+                        <Image
+                          alt="Bronzino"
+                          src="/images/Bronzino.webp"
+                          height={185}
+                          width={145}
+                        />
+                      </motion.div>
                     </motion.div>
                   </div>
                 </div>
                 <div className="pos-5 hidden lg:grid">
                   <div className="relative h-28 w-32 bg-cover">
                     <motion.div variants={variants}>
-                      <motion.img
-                        variants={item}
-                        src="/images/Dionysos.jfif"
-                        alt="Dionysos"
-                      />
+                      <motion.div variants={item}>
+                        <Image
+                          alt="Dionysos"
+                          src="/images/Dionysos.webp"
+                          height={170}
+                          width={130}
+                        />
+                      </motion.div>
                     </motion.div>
                   </div>
                 </div>
