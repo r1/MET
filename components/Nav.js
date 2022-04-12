@@ -52,16 +52,16 @@ export default function Nav() {
         animate="animate"
         exit={{ opacity: 0 }}
         variants={isDesktop ? fadeInUp : fadeInUpMobile}
-        className="container mx-auto flex flex-row items-center p-5"
+        className="mx-auto flex flex-row items-center pr-5 pt-5 pb-5 pl-5 lg:max-w-7xl lg:pr-0 xl:container xl:pr-5"
       >
-        <a className="mb-4 mr-20 flex items-center font-medium text-gray-900 md:mb-0">
+        <a className="mb-4 mr-12 flex items-center font-medium text-gray-900 md:mb-0 xl:mr-20">
           <Link href="/" passHref>
             <a>
               <METLogo />
             </a>
           </Link>
         </a>
-        <div className="plain-medium hidden flex-wrap items-center justify-center gap-x-16 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto xl:flex">
+        <div className="plain-medium hidden flex-wrap items-center justify-center gap-x-16 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto lg:flex">
           <Link href="/visit" passHref>
             <a className="transition hover:text-black">VISIT</a>
           </Link>
@@ -81,19 +81,36 @@ export default function Nav() {
             <a className="transition hover:text-black">MEMBERSHIP</a>
           </Link>
           <Link href="/shop" passHref>
-            <a className="transition hover:text-black">SHOP</a>
+            <a className="hidden transition hover:text-black md:hidden lg:hidden xl:block">
+              SHOP
+            </a>
           </Link>
         </div>
         <div className="grow xl:hidden" />
-        <div className="flex flex-row">
-          <span className="pr-3">
+        <div className="hidden flex-row lg:flex">
+          <div className="pr-3">
             <Search />
-          </span>
+          </div>
           <input
             type="text"
             className="plain-regular bg-[#f2eee5] text-[0.9em] tracking-[0.8px] text-[#363636] placeholder-[#878787] outline-none"
             placeholder="SEARCH"
           />
+        </div>
+        <div className="flex lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fillRule="evenodd"
+            clipRule="evenodd"
+          >
+            <path
+              d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"
+              fill="#1040e2"
+            />
+            <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
+          </svg>
         </div>
       </motion.div>
     </>

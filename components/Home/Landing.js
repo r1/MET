@@ -120,11 +120,11 @@ export default function Landing({ variants }) {
                 <div className="pos-2 hidden lg:grid">
                   <div className="relative h-44 w-36 bg-cover">
                     <motion.div variants={variants}>
-                      <motion.div variants={item}>
+                      <motion.div variants={item} className="mr-2">
                         <Image
                           alt="Brinley"
                           src="/images/Brinley.webp"
-                          height={185}
+                          height={195}
                           width={145}
                         />
                       </motion.div>
