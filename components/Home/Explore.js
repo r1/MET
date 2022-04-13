@@ -2,7 +2,7 @@
 export default function Explore() {
   return (
     <>
-      <div className="mx-auto mb-60 lg:container">
+      <div className="mx-auto mb-60 lg:container xl:pl-2">
         <div className="flex items-center justify-between">
           <div className="">
             <h2 className="ogg-regular mb-6 pl-5 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">

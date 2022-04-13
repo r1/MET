@@ -4,7 +4,7 @@
 export default function Locations() {
   return (
     <>
-      <div className="mx-auto my-32 px-5 lg:container lg:my-60 lg:px-0">
+      <div className="mx-auto my-32 px-5 lg:container lg:my-60 xl:pl-2">
         <div>
           <h2 className="ogg-regular mb-6 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:text-[4.1rem] lg:leading-[14rem]">
             One museum, two locations
