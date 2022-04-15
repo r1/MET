@@ -2,10 +2,10 @@
 export default function Explore() {
   return (
     <>
-      <div className="mx-auto mb-60 lg:container xl:pl-2">
+      <div className="mx-auto mb-28 lg:container lg:mb-60 xl:px-2">
         <div className="flex items-center justify-between">
           <div className="">
-            <h2 className="ogg-regular mb-6 pl-5 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">
+            <h2 className="ogg-regular mb-6 pl-4 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">
               More to explore online
             </h2>
           </div>
@@ -28,7 +28,7 @@ export default function Explore() {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 px-5 lg:px-0">
+        <div className="grid grid-cols-1 px-4 lg:px-0">
           <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
               <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">

@@ -6,10 +6,10 @@ import Image from "next/image";
 export default function News() {
   return (
     <>
-      <div className="container mx-auto xl:pl-2">
+      <div className="mx-auto lg:container xl:pl-2">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div>
-            <h2 className="ogg-regular pl-5 text-[3rem] text-[#2d2d2d] lg:pl-0 lg:text-[4.1rem] ">
+            <h2 className="ogg-regular pl-4 text-[3rem] text-[#2d2d2d] lg:pl-0 lg:text-[4.1rem] ">
               What&apos;s new
             </h2>
             <div className="mt-3 ml-5 hidden lg:mt-5 lg:ml-0 lg:block">
@@ -47,7 +47,7 @@ export default function News() {
             </div>
           </div>
         </div>
-        <div className="lg:mb-32 mb-0 grid grid-cols-2 border-t-0 border-[#777572] sm:grid-cols-2 lg:grid-cols-4 lg:border-t-2">
+        <div className="mb-0 grid grid-cols-2 border-t-0 border-[#777572] sm:grid-cols-2 lg:mb-32 lg:grid-cols-4 lg:border-t-2">
           <div className="mt-0 border-r-0 border-[#777572] pl-4 pr-1 lg:mt-20 lg:border-r-2 lg:pr-4 lg:pl-0">
             <div className="hidden md:block lg:block">
               <Image
@@ -114,7 +114,7 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="mt-20 hidden border-r-2 border-[#777572] pr-5 pl-5 lg:grid">
+          <div className="mt-20 hidden border-[#777572] pr-5 pl-5 lg:grid">
             <Image
               src="/images/AG.png"
               alt="Audio Guide"
@@ -136,7 +136,7 @@ export default function News() {
             </div>
           </div>
         </div>
-        <div className="mb-32 block text-center lg:hidden">
+        <div className="mb-12 block text-center lg:hidden">
           <a href="/" className="plain-regular text-md text-[#ec0426]">
             See all
             <svg

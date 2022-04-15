@@ -98,7 +98,7 @@ export default function Landing({ variants }) {
 
   return (
     <>
-      <div className="mx-auto my-0 flex max-w-7xl flex-col justify-center px-5 lg:my-20 lg:items-center">
+      <div className="mx-auto my-0 flex max-w-7xl flex-col justify-center px-4 lg:my-20 lg:items-center">
         <div className="relative flex justify-center">
           <AnimateSharedLayout type="crossfade">
             <motion.div variants={container} initial="hidden" animate="show">
